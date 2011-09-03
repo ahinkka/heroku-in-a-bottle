@@ -1,0 +1,6 @@
+* bottle.py Heroku-compatible sample app
+  Just say
+  : git push heroku master
+  to get your presence.
+
+  By default the app just prints out its environment as plaintext.
