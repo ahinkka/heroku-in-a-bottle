@@ -5,6 +5,15 @@
 
   By default the app just prints out its environment as plaintext.
 
+* Installing development environment
+  To install Bottle framework into a virtualenv:
+  : virtualenv env
+  : source env/bin/activate
+  : pip install -r requirements.txt
+  : ./app.py
+  You might also want to add =reloader=False= to the bottle.run call to enable
+  automatic code reloading during development.
+
 * License
   Copyright (C) 2011 by Atte Hinkka
   
