@@ -6,7 +6,8 @@
   By default the app just prints out its environment as plaintext.
 
 * Installing development environment
-  To install Bottle framework into a virtualenv:
+  To install [[http://bottlepy.org/docs/dev/] Bottle framework] into a
+  virtualenv:
   : virtualenv env
   : source env/bin/activate
   : pip install -r requirements.txt
